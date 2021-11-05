@@ -30,6 +30,8 @@ public class Main {
         double score = score(output);
         System.out.print("The score is: ");
         System.out.format("%.2f", score);
+        System.out.println();
+        ageUnderstanding(output);
 
     }
     //reading the file
